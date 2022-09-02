@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h2>Json Object</h2>
+        <p id="demo"></p>
+    
+        <script>
+        var students=[];
+        const myObj = {
+            name:"Areeba",
+            fname:"M.Riaz",
+            age:29,
+            batch:"123",
+            class:"10",
+            course:"DISM",
+            center:"Aptech",
+            percentage:82,
+            address:"ABC Model Colony karachi",
+            city:"karachi",
+            country:"pakistan",
+            dob:"07-11-2000",
+
+        };
+        document.getElementById("demo").innerHTML = myObj.name + "<br>" + myObj.fname + "<br>" + myObj.age + "<br>"
+        +myObj.batch + "<br>" + myObj.class +   "<br>" + myObj.course + "<br>" + myObj.center + "<br>" + myObj.percentage + "<br>" + myObj.address +
+        "<br>" + myObj.city + "<br>" + myObj.country + "<br>" + myObj.dob;
+        </script>
+</body>
+</html>
